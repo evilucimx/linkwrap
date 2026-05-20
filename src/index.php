@@ -8,7 +8,7 @@ const ALPHABET = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
 
 function store() { return getenv('LW_STORE') ?: __DIR__ . '/../links.tsv'; }
 
-function code($n = 4)
+function code($n = 5)
 {
     $out = '';
     for ($i = 0; $i < $n; $i++) $out .= ALPHABET[random_int(0, strlen(ALPHABET) - 1)];
