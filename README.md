@@ -31,7 +31,7 @@ curl -d 'url=https://example.com/a/very/long/path' http://localhost:8080/new
 ```
 
 Codes are four characters from a 58-character alphabet, which is about
-eleven million before you need to care.
+six hundred million before you need to care.
 
 ## Config
 
