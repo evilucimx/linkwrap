@@ -13,7 +13,7 @@ does nothing else.
 ## Install
 
 ```
-git clone https://github.com/REPLACE-ME/linkwrap
+git clone https://github.com/evilucimx/linkwrap
 cd linkwrap
 php -S 0.0.0.0:8080 -t src src/index.php
 ```
